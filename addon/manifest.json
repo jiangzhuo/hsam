@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "hsam",
+    "version": "1.0.0",
+    "description": "Hyperthymesia a personal search engine based on your browsing history",
+    "icons": {
+        "32": "icons/hsam-32.png"
+    },
+    "browser_action": {
+        "default_icon": "icons/hsam-32.png",
+        "default_title": "HSAM",
+        "default_popup": "popup/hsam.html",
+        "browser_style": true
+    },
+    "background": {
+        "scripts": ["background_scripts/index.js"]
+    }
+}
